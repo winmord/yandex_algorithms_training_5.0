@@ -5,8 +5,9 @@
     <content url="file://$MODULE_DIR$/lesson1">
       <excludeFolder url="file://$MODULE_DIR$/lesson1/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/lesson1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson1/out" />
     </content>
-    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

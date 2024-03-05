@@ -31,11 +31,11 @@ public class D {
             int x = rook.x();
             int y = rook.y();
 
-            for (int i = 0; i < x; i++) {
-                if ("C".equals(board[i][y])) {
+            for (int i = 1; i < 8; i++) {
+                if (x - i < 0 || "C".equals(board[x - i][y])) {
                     break;
                 }
-                board[i][y] = "-";
+                board[x - i][y] = "-";
             }
 
             for (int i = x + 1; i < 8; i++) {
@@ -45,11 +45,11 @@ public class D {
                 board[i][y] = "-";
             }
 
-            for (int i = 0; i < y; i++) {
-                if ("C".equals(board[x][i])) {
+            for (int i = 1; i < 8; i++) {
+                if (y - i < 0 || "C".equals(board[x][y - i])) {
                     break;
                 }
-                board[x][i] = "-";
+                board[x][y - i] = "-";
             }
 
             for (int i = y + 1; i < 8; i++) {

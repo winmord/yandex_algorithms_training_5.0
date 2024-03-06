@@ -6,6 +6,8 @@ import java.util.Scanner;
 250
 500
 218
+
+6
 */
 
 public class G {

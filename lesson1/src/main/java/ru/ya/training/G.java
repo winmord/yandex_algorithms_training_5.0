@@ -2,6 +2,12 @@ package ru.ya.training;
 
 import java.util.Scanner;
 
+/*
+250
+500
+218
+*/
+
 public class G {
     private static final double GOLDEN_RATIO = 1.618;
 
